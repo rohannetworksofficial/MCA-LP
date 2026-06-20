@@ -17,7 +17,7 @@
   --primary-orange: #FF6B35;
   --accent-yellow: #FFC700;
   --bg-light: #F8F9FA;
-  --bg-white: #FFFFFF;
+  --bg-white: #ffffff55ffffff55;
   --text-dark: #1A1A2E;
   --text-muted: #6B7280;
   --border-light: #E5E7EB;
@@ -214,7 +214,7 @@ body {
 .cta-btn {
   display: inline-block;
   background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-orange) 100%);
-  color: #fff;
+  color: #ffffff55;
   padding: 14px 32px;
   border-radius: 8px;
   font-family: var(--font-display);
@@ -522,7 +522,7 @@ input:focus {
   background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-orange) 100%);
   border: none;
   border-radius: 8px;
-  color: #fff;
+  color: #ffffff55;
   font-family: var(--font-display);
   font-size: 0.95rem;
   font-weight: 700;
@@ -553,7 +553,7 @@ input:focus {
   width: 18px;
   height: 18px;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  border-top-color: #fff;
+  border-top-color: #ffffff55;
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
   display: inline-block;
