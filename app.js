@@ -13,12 +13,12 @@ import { getFirestore, collection, addDoc, serverTimestamp }
 //  Replace with your Firebase project credentials
 // ────────────────────────────────────────────────
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+   apiKey: "AIzaSyDnIwmC2NJD36EfAPSdZ6c6dnYB_ZuULrE",
+  authDomain: "rohannetworks-b54e9.firebaseapp.com",
+  projectId: "rohannetworks-b54e9",
+  storageBucket: "rohannetworks-b54e9.firebasestorage.app",
+  messagingSenderId: "572657691351",
+  appId: "1:572657691351:web:0cc6e4139a8202b3ac5e92"
 };
  
 // ────────────────────────────────────────────────
