@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCA Wall Climbing — Demo Sessions</title>
+  <link rel="icon" type="image/x-icon" href="./images/mca-logo.png">
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Poppins:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+ 
+<body>
+ 
+  <!-- Background elements -->
+  <div class="bg-mountain"></div>
+  <div class="bg-gradient"></div>
+ 
+  <div class="page-wrapper">
+ 
+    <!-- NAV -->
+    <nav class="navbar">
+      <div class="logo-area">
+        <img src="./images/mca-logo.png" alt="MCA Logo" class="logo-img"
+          onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex'" />
+        <div id="logo-fallback" class="logo-fallback">MCA</div>
+      </div>
+      <div class="nav-tagline">Maharashtra Climbing Association</div>
+    </nav>
+ 
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-image-wrap">
+        <img src="./images/climbing-hero.png" alt="Wall Climbing Demo" class="hero-thumb"
+          onerror="this.parentElement.style.display='none'" />
+        <div class="hero-glow"></div>
+      </div>
+ 
+      <div class="hero-content">
+        <p class="pre-label">Experience the Adventure —</p>
+        <h1 class="hero-title">
+          <span class="gradient-text">Wall Climbing</span><br />Demo Session
+        </h1>
+        <p class="hero-desc">
+          Join us for an exciting introduction to wall climbing. Whether you're a beginner or looking to try something new,
+          our certified instructors will guide you through a fun, safe, and beginner-friendly climbing experience.
+        </p>
+        <div class="pill-row">
+          <span class="pill">🧗 Certified Instructors</span>
+          <span class="pill">🛡️ Safety First</span>
+          <span class="pill">👥 All Levels Welcome</span>
+          <span class="pill">⚡ Action-Packed</span>
+        </div>
+        <a href="#booking-form" class="cta-btn">Book Your Spot Now ↓</a>
+      </div>
+    </section>
+ 
+    <!-- DETAILS SECTION -->
+    <section class="details-section">
+      <div class="details-grid">
+        
+        <!-- VENUE -->
+        <div class="detail-card venue-card">
+          <div class="detail-icon">📍</div>
+          <h3>Venue</h3>
+          <p class="detail-text">Sai Nagar Yoga Park, Pimple Saudagar, Pune, 411027</p>
+          <p class="detail-subtext">PCMC Climbing Complex</p>
+        </div>
+ 
+        <!-- DAYS & TIMINGS -->
+        <div class="detail-card timing-card">
+          <div class="detail-icon">📅</div>
+          <h3>Days & Timings</h3>
+          <p class="detail-text"><strong>Monday – Saturday</strong></p>
+          <p class="detail-subtext">(Weekly Off: Tuesday)</p>
+          <ul class="timing-list">
+            <li>7:30 AM – 9:30 AM</li>
+            <li>9:45 AM – 11:45 AM</li>
+            <li>4:00 PM – 6:00 PM</li>
+            <li>6:15 PM – 8:15 PM</li>
+          </ul>
+        </div>
+ 
+      </div>
+    </section>
+ 
+    <!-- WHY PARTICIPATE & WHAT TO BRING -->
+    <section class="features-section">
+      <div class="features-grid">
+        
+        <!-- WHY PARTICIPATE -->
+        <div class="feature-block why-block">
+          <div class="feature-header">
+            <h2>Why Participate?</h2>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-icon">👨‍🏫</span>
+              <span>Trained & Certified Instructors</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🛡️</span>
+              <span>Safety Equipment Provided</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🧗</span>
+              <span>Beginner-Friendly Experience</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">😊</span>
+              <span>Fun Introduction to Wall Climbing</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">👥</span>
+              <span>Suitable for Students & All Ages</span>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- WHAT TO BRING -->
+        <div class="feature-block what-block">
+          <div class="feature-header">
+            <h2>What to Bring?</h2>
+          </div>
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-icon">👟</span>
+              <span>Sports Shoes</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">👕</span>
+              <span>Comfortable Sportswear</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">💧</span>
+              <span>Water Bottle</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🎒</span>
+              <span>Small Bag (Optional)</span>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+    </section>
+ 
+    <!-- LEAD FORM -->
+    <section class="form-section" id="booking-form">
+      <div class="form-card">
+        <div class="form-header-block">
+          <div class="form-icon">🎟️</div>
+          <h2>Reserve Your Spot</h2>
+          <p>Fill in your details to secure your place at the wall climbing demo session.</p>
+        </div>
+ 
+        <div id="form-alert" class="form-alert hidden"></div>
+ 
+        <div class="form-grid">
+          <div class="field-group">
+            <label for="firstName">First Name <span class="req">*</span></label>
+            <input type="text" id="firstName" placeholder="Your First Name" autocomplete="given-name" />
+          </div>
+          <div class="field-group">
+            <label for="lastName">Last Name <span class="req">*</span></label>
+            <input type="text" id="lastName" placeholder="Your Last Name" autocomplete="family-name" />
+          </div>
+          <div class="field-group full">
+            <label for="email">Email Address <span class="req">*</span></label>
+            <input type="email" id="email" placeholder="your@email.com" autocomplete="email" />
+          </div>
+          <div class="field-group full">
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" autocomplete="tel" />
+          </div>
+        </div>
+ 
+        <button id="submit-btn" onclick="submitLead()">
+          <span id="btn-text">Book Now</span>
+          <span id="btn-spinner" class="spinner hidden"></span>
+        </button>
+ 
+        <p class="privacy-note">🔒 Your details are secure. We won't spam.</p>
+      </div>
+    </section>
+ 
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">MCA</div>
+        <div class="footer-links">
+          <span>Maharashtra Climbing Association</span>
+          <a href="tel:9730538200">Call Us</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 MCA. All rights reserved. | Wall Climbing Demo Sessions</p>
+    </footer>
+ 
+  </div>
+ 
+  <!-- Firebase SDK (module) -->
+  <script type="module" src="app.js"></script>
+ 
+</body>
+ 
+</html>
+ 
